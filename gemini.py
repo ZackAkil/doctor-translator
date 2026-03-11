@@ -1,7 +1,7 @@
 from vertexai.preview.generative_models import GenerativeModel
 
 # Load Gemini Pro
-gemini_pro_model = GenerativeModel("gemini-pro")
+gemini_pro_model = GenerativeModel("gemini-2.5-flash-lite")
 
 
 def translate_doctor_report(report):
